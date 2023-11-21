@@ -1,0 +1,1 @@
+const MongoURL = mongodb+srv://admin:<password>@chat-application.1tsxyfg.mongodb.net/?retryWrites=true&w=majority;
