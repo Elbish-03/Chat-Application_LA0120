@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <title>Login Page</title>
 </head>
 <body>
+  <header>
+    <div class="webTitle">Pychat</div>
+  </header>
+
     <div class="container">
         <h2>Login</h2>
         <form id="loginForm" method="post" action="/login">
@@ -15,8 +20,16 @@
           <label for="password">Password:</label>
           <input type="password" id="password" name="password" required>
     
-          <button type="submit">Login</button>
+          <button class="submitBtn" type="submit">Login</button>
         </form>
       </div>
+
+      <footer>
+        <div class="creator">Elbish Bhusal</div>
+        <div class="creator">Alek Cvetkovski</div>
+        <div class="creator">Igor Martic</div>
+        <div class="creator">David Tanaskovic</div>
+    </footer>
+    
 </body>
 </html>
