@@ -12,7 +12,7 @@ app.listen(port, () => console.log(`API ist live on http://localhost:${port}`));
 //LOGIN || REGISTER
 
 app.get("/", async(req, res) => {
-    res.sendFile(__dirname + "/index.html");
+    res.sendFile(__dirname + "../client/html/index.html");
 })
 
 app.get("/To")
